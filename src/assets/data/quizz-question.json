@@ -3,7 +3,18 @@
   "questions": [
     {
       "id": 1,
-      "question": "Qual super poder voc~e escolheria?",
+      "question": "Qual super poder você escolheria?",
+      "options": [
+        { "id": 1, "name": "Voar", "alias": "A" },
+        { "id": 2, "name": "Fogo", "alias": "B" },
+        { "id": 3, "name": "Super força", "alias": "A" },
+        { "id": 4, "name": "Ler mentes", "alias": "B" },
+        { "id": 5, "name": "Velocidade", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual super poder você escolheria?",
       "options": [
         { "id": 1, "name": "Voar", "alias": "A" },
         { "id": 2, "name": "Fogo", "alias": "B" },
@@ -11,5 +22,9 @@
         { "id": 4, "name": "Voar", "alias": "B" }
       ]
     }
-  ]
+  ],
+  "result": {
+    "A": "Vilão",
+    "B": "Heroi"
+  }
 }

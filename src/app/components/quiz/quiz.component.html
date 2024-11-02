@@ -7,12 +7,16 @@
     <h3>{{ questionSelected.question }}</h3>
   </div>
   <div class="quiz-options">
-    <button class="btn-option">opção 1</button>
+    @for (option of questionSelected.options; track $index) {
+    <button (click)="playerChoose(option.alias)" class="btn-option">
+      {{ option.name }}
+    </button>
+    }
   </div>
   @if (finished) {
-    <div class="quiz-result">
-      <h3>Seu resultado é:</h3>
-      <p>Resposta</p>
-    </div>
+  <div class="quiz-result">
+    <h3>Seu resultado é:</h3>
+    <p>{{ answersSelected }}</p>
+  </div>
   }
 </div>
