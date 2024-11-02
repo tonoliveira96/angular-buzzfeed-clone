@@ -3,6 +3,7 @@
     <img src="/src/assets/logo/buzzfeed-logo.png" alt="" />
     <h1>{{ title }}</h1>
   </div>
+  @if (!finished) {
   <div class="quiz-question">
     <h3>{{ questionSelected.question }}</h3>
   </div>
@@ -13,10 +14,11 @@
     </button>
     }
   </div>
-  @if (finished) {
+  } @if (finished) {
   <div class="quiz-result">
     <h3>Seu resultado é:</h3>
     <p>{{ answersSelected }}</p>
+    <button>Refazer Quiz</button>
   </div>
   }
 </div>

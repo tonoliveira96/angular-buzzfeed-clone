@@ -46,16 +46,16 @@
   margin-top: 16px;
 }
 
-.btn-option:hover{
+.btn-option:hover {
   background-color: #5cbf2a;
 }
 
-.btn-option:active{
+.btn-option:active {
   position: relative;
   top: 1px;
 }
 
-.quiz-result{
+.quiz-result {
   width: 100%;
   height: 350px;
   background-color: #210239;
@@ -65,4 +65,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quiz-result button {
+  background-color: #5cbf2a;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 24px;
+  border: 0;
+  margin-top: 16px;
 }

@@ -2,29 +2,116 @@
   "title": "Você seria um heroi ou vilão?",
   "questions": [
     {
-      "id": 1,
-      "question": "Qual super poder você escolheria?",
+      "id": 2,
+      "question": "Qual seria seu principal objetivo com seus poderes?",
       "options": [
-        { "id": 1, "name": "Voar", "alias": "A" },
-        { "id": 2, "name": "Fogo", "alias": "B" },
-        { "id": 3, "name": "Super força", "alias": "A" },
-        { "id": 4, "name": "Ler mentes", "alias": "B" },
-        { "id": 5, "name": "Velocidade", "alias": "B" }
+        { "id": 1, "name": "Proteger as pessoas e manter a paz", "alias": "A" },
+        {
+          "id": 2,
+          "name": "Controlar o mundo e impor sua vontade",
+          "alias": "B"
+        },
+        { "id": 3, "name": "Ajudar aqueles que precisam de mim", "alias": "A" },
+        {
+          "id": 4,
+          "name": "Buscar vingança contra aqueles que me prejudicaram",
+          "alias": "B"
+        },
+        {
+          "id": 5,
+          "name": "Alcançar sucesso pessoal, não importa o custo",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id": 2,
-      "question": "Qual super poder você escolheria?",
+      "id": 3,
+      "question": "Como você reagiria se alguém não concordasse com você?",
       "options": [
-        { "id": 1, "name": "Voar", "alias": "A" },
-        { "id": 2, "name": "Fogo", "alias": "B" },
-        { "id": 3, "name": "Voar", "alias": "A" },
-        { "id": 4, "name": "Voar", "alias": "B" }
+        {
+          "id": 1,
+          "name": "Tentaria entender o ponto de vista dele",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Imporia minha opinião, eu sei o que é melhor",
+          "alias": "B"
+        },
+        { "id": 3, "name": "Evitava conflitos, não vale a pena", "alias": "A" },
+        {
+          "id": 4,
+          "name": "Manipularia para que ele visse que estou certo",
+          "alias": "B"
+        },
+        {
+          "id": 5,
+          "name": "Deixaria que ele seguisse o próprio caminho",
+          "alias": "A"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual dessas frases mais te representa?",
+      "options": [
+        { "id": 1, "name": "O bem de todos está acima de tudo.", "alias": "A" },
+        {
+          "id": 2,
+          "name": "A liberdade é minha prioridade, custe o que custar.",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "A justiça é fundamental, mesmo que seja difícil.",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "O poder é essencial para garantir o que é certo.",
+          "alias": "B"
+        },
+        {
+          "id": 5,
+          "name": "O equilíbrio é o que mantém a ordem no mundo.",
+          "alias": "A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "O que você faria se ganhasse uma fortuna inesperada?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Investiria em projetos que ajudassem minha comunidade",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Guardaria para garantir minha própria segurança e conforto",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Usaria para criar um exército de defesa pessoal",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Criaria uma instituição para beneficiar os menos favorecidos",
+          "alias": "A"
+        },
+        {
+          "id": 5,
+          "name": "Viajava pelo mundo, ajudando onde pudesse",
+          "alias": "A"
+        }
       ]
     }
   ],
   "result": {
-    "A": "Vilão",
-    "B": "Heroi"
+    "A": "Herói",
+    "B": "Vilão"
   }
 }
